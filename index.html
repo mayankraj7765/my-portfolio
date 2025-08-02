@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>arvind devloper portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: 'poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 92px;
+            background-color: rgb(18, 18, 69)
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+
+            color: lavender;
+            font-size 1.04 rem;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 80px 0;
+        }
+
+        .firstsection>div {
+            width: 30%;
+        }
+
+        .leftsection {
+
+            font-size: 3rem;
+            margin: 70px;
+
+        }
+
+        .rightsection img {
+            width: 80%;
+        }
+
+        .purple {
+            color: blueviolet;
+        }
+       #element{
+            color: blueviolet;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Arvind portfolio </div>
+            <div class="right">
+                <UL>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Project</li>
+                    <li>Contact me</li>
+                </UL>
+            </div>
+        </nav>
+    </header>
+    <header>
+
+        <main>
+            <section class="firstsection">
+                <div class="left section">
+                    Hi, my name is <span class="purple">Arvind</span>
+                    <div>and i am a passionate</div>
+                    <div> web devloper</div>
+                    <span id="element"></span>
+                </div>
+                <div class="rightsection">
+                    <img src="bgg.png" alt="">
+                </div>
+            </section>
+        </main><script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+        <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['web devloper','graphic designer','web designer','video editor'],
+      typeSpeed: 50,
+    });
+  </script>
+  
+</body>
+
+</html>
